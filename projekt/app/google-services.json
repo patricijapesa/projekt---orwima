@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "543382221850",
+    "project_id": "projekt-a5751",
+    "storage_bucket": "projekt-a5751.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543382221850:android:f89838811ea34a4e494da3",
+        "android_client_info": {
+          "package_name": "ferit.patricijapesa.projekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyYZ4oMBKBdz3-xIDFqPbsA4ELV2r5xcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

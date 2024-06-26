@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><a href="#" onclick="goBack()"> <img src="back.png" width="25px" height="25px"></a></div>
+            <nav>
+                <ul>
+                    <li>
+                        <form action="/search" method="get">
+                            <input type="text" name="q" placeholder="Search">
+                            <button type="submit-search"><img src="search-icon.png" width="25px" height="25px"></button>
+                        </form>
+                    </li>
+                    <li><a href="user-profile.html"><img src="user-icon.png" alt="User Icon" width="25px" height="25px"></a></li>
+                    <li><a href="log-in.html">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="features">
+            <h1>Features</h1>
+            <p>
+                <h3>Create Your Profile</h3>
+                Easily create your personalized profile on Drive Me. Share your travel preferences, interests, and any additional information to help connect with compatible drivers or passengers.
+                <h3>Create Routes for Your Journeys</h3>
+                Tailor your travel experience by creating routes for your journeys. Whether it's a daily commute, a weekend getaway, or a long-distance trip, Drive Me allows you to set your preferred routes and schedule.
+                <h3>Find People Heading to Your Desired Locations</h3>
+                Discover fellow travelers heading to your desired destinations. With Drive Me's intuitive search and matching features, you can easily find individuals or groups traveling to the same locations as you. Say goodbye to solo trips and hello to shared adventures!
+                <h3>Leave Your Reviews and Ratings</h3>
+                Share your experiences and contribute to the Drive Me community by leaving reviews and ratings for your fellow travelers. Whether you had a fantastic journey or encountered any issues, your feedback helps others make informed decisions and fosters a trusted community environment.
+            </p>
+        </section>
+    </main>
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+    </script> 
+    <footer>
+        <ul>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Download app</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

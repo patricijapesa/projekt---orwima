@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a drive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><a href="#" onclick="goBack()"> <img src="back.png" width="25px" height="25px"></a></div>
+            <nav>
+                <ul>
+                    <li>
+                        <form action="/search" method="get">
+                            <input type="text" name="q" placeholder="Search">
+                            <button type="submit-search"><img src="search-icon.png" width="25px" height="25px"></button>
+                        </form>
+                    </li>
+                    <li><a href="user-profile.html"><img src="user-icon.png" alt="User Icon" width="25px" height="25px"></a></li>
+                    <li><a href="log-in.html">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="find-a-drive">
+            <h1>Most Recently Added</h1>
+            <table class="full-width-table">
+                <tr>
+                    <th>Driver, Destination</th>
+                    <th>Contact Driver</th>
+                </tr>
+                <tr>
+                    <td>Ana Anić, Zagreb</td>
+                    <td><a href="+123-456-7890">+123-456-7890</a></td>
+                </tr>
+                <tr>
+                    <td>Marko Markić, Osijek</td>
+                    <td><a href="+235-845-7250">+235-845-7250</a></td>
+                </tr>
+                <tr>
+                    <td>Mile Milić, Split</td>
+                    <td><a href="+458-941-6025">+458-941-6025</a></td>
+                </tr>
+                <tr>
+                    <td>Ivo Ivić, Dubrovnik</td>
+                    <td><a href="+879-055-6585">+879-055-6585</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+    </script> 
+    <footer>
+        <ul>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Download app</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
